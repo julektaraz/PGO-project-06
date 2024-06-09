@@ -1,6 +1,6 @@
 class Truck extends Vehicle {
     private double milesDriven;
-    private double fuelConsumed;
+    private double fuelConsumed; // in gallons
     private double cargoWeight; // in tons
 
     public Truck(String make, String model, int year, double milesDriven, double fuelConsumed, double cargoWeight) {
